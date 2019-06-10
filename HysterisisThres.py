@@ -1,6 +1,6 @@
 import numpy as np
 
-def HysterisisThres (E_nms, E_bin, i, j, t_low):
+def HysterisisThress (E_nms, E_bin, i, j, t_low):
     E_bin[i,j]=255
 
     jL = np.max([j - 1, 0])
